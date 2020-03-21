@@ -1,0 +1,95 @@
+body{
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: medium;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display:inline-block;
+    margin-left: 2%;
+    float:right;
+    margin-top: 2%;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}  
+.loginbox{
+    width: 390px;
+    height: 470px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 0% 2%;
+    border-radius: 5%;
+    opacity: 95%;
+}
+.loginbox input[type="text"]
+{
+    color: black;
+    height: 7%;
+    width: 90%;
+}
+.loginbox input[type="date"]
+{
+    color: black;
+    height: 7%;
+    width: 45%;
+}
+.loginbox button a{
+    color:black;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+.loginbox button{
+    border-radius: 8%;
+    background: red;
+    border: none;
+    float:right;
+    height: 10%;
+    width: 30%;
+}
+a:hover{
+    color: red;
+    border-bottom: 2px solid #fff;
+}
+.loginbox select{
+    color: black;
+    height: 7%;
+    width: 50%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    float: left;
+    padding: 10px 0;
+}
+span{
+    margin-left: 20%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+footer p{
+    margin-left: 89%;
+    color: blue;
+    font-weight: bold;
+}
